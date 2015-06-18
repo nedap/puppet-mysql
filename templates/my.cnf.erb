@@ -10,3 +10,6 @@ bind-address=<%= @host %>
 port=<%= @port %>
 socket=<%= @socket %>
 max_allowed_packet=1073741824
+
+[mysqld]
+innodb_file_per_table=1
